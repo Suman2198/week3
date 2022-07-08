@@ -103,8 +103,8 @@ public class BruteCollinearPoints
 
         
         StdDraw.enableDoubleBuffering();
-        StdDraw.setXscale(0, 32768);
-        StdDraw.setYscale(0, 32768);
+        StdDraw.setAscale(0, 32768);
+        StdDraw.setBscale(0, 32768);
         for (Point p : points) {
             p.draw();
         }
